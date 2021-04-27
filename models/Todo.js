@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 
+// setting up a new mongoose Schema for our todolist
 const TodoSchema = new mongoose.Schema({
   todo: {
     type: String,
